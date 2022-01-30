@@ -1,0 +1,3 @@
+Raise the optional fee rate to prevent dust attacks!
+
+Directions: add paytxfee=0.001 to your artbyte.conf.
