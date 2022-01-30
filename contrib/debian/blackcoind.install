@@ -1,0 +1,2 @@
+debian/bin/artbyted usr/bin
+src/artbyted usr/lib/artbyte
