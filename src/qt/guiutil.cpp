@@ -462,19 +462,19 @@ void HelpMessageBox::showOrPrint()
 
 void SetBlackThemeQSS(QApplication& app)
 {
-    app.setStyleSheet("QWidget        { background: rgb(190,170,170); }"//this is the color of the entire background on the right side
+    app.setStyleSheet("QWidget        { background: rgb(40,48,48); }"//this is the color of the entire background on the right side- was 190-170-170
                       "QFrame         { border: none; }"
-                      "QComboBox      { color: rgb(255,255,255); }"  //Testing - Original value 255 255 255
+                      "QComboBox      { background: rgb(152, 152, 152); color: rgb(255,255,255); }"  //Testing - Original value 255 255 255
                       "QComboBox QAbstractItemView::item { color: rgb(255,255,255); }"  //Testing - Original value 255 255 255
                       "QPushButton    { background: rgb(226,189,121); color: rgb(41,44,48); }"  //The 1st one is button color (e.g., new address) and the 2nd one is the text over the button
                       "QDoubleSpinBox { background: rgb(0,0,0); color: rgb(255,255,255); border-color: rgb(194,194,194); }" //The first one is entry box for amounts
                       "QLineEdit      { background: rgb(0,0,0); color: rgb(255,255,255); border-color: rgb(194,194,194); }" //the first one determines color of window where you type in
                       "QTextEdit      { background: rgb(63,67,72); color: rgb(255,255,255); }"  //The first one is the debug console color
                       "QPlainTextEdit { background: rgb(63,67,72); color: rgb(255,255,255); }"  //The first one is window to sign or verify message
-                      "QMenuBar       { background: rgb(190,170,170); color: rgb(110,116,126); }" //the first one is the top horizontal bar
-                      "QMenu          { background: rgb(75,81,88); color: rgb(222,222,222); }" //this is the "open" drop-down menu color
+                      "QMenuBar       { background: rgb(40,48,48); color: rgb(110,116,126); }" //the first one is the top horizontal bar
+                      "QMenu          { background: rgb(75,81,88); color: rgb(222,222,222); }" //first one is ... (orig 75,81,88)... this is the "open" drop-down menu color
                       "QMenu::item:selected { background-color: rgb(48,140,198); }"
-                      "QLabel         { color: rgb(0,0,0); }" //This one controls text in information box (Debug & About Qt) 
+                      "QLabel         { color: rgb(255,255,240); }" //This one controls text in information box (Debug & About Qt) 
                       "QScrollBar     { color: rgb(255,255,255); }"
                       "QCheckBox      { color: rgb(120,127,139); }" //Testing - Original values 120 127 139
                       "QRadioButton   { color: rgb(120,127,139); }" //Testing - Original values 120 127 139 
