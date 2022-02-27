@@ -529,7 +529,7 @@ first: all
 $(TARGET): /home/compiler/ArtbytE/src/leveldb/libleveldb.a /home/compiler/ArtbytE/build/build.h build/ui_coincontroldialog.h build/ui_sendcoinsdialog.h build/ui_addressbookpage.h build/ui_signverifymessagedialog.h build/ui_aboutdialog.h build/ui_editaddressdialog.h build/ui_transactiondescdialog.h build/ui_overviewpage.h build/ui_sendcoinsentry.h build/ui_askpassphrasedialog.h build/ui_rpcconsole.h build/ui_optionsdialog.h $(OBJECTS)  
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
-Makefile: blackcoin-qt.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
+Makefile: artbyte-qt.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64/qmake.conf /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/sanitize.conf \
@@ -592,14 +592,14 @@ Makefile: blackcoin-qt.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64/qm
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		blackcoin-qt.pro \
+		artbyte-qt.pro \
 		src/qt/bitcoin.qrc \
 		/usr/lib/x86_64-linux-gnu/libQt5Widgets.prl \
 		/usr/lib/x86_64-linux-gnu/libQt5Gui.prl \
 		/usr/lib/x86_64-linux-gnu/libQt5Network.prl \
 		/usr/lib/x86_64-linux-gnu/libQt5DBus.prl \
 		/usr/lib/x86_64-linux-gnu/libQt5Core.prl
-	$(QMAKE) -o Makefile blackcoin-qt.pro
+	$(QMAKE) -o Makefile artbyte-qt.pro
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/unix.conf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/common/linux.conf:
@@ -663,7 +663,7 @@ Makefile: blackcoin-qt.pro /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64/qm
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf:
 /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf:
-blackcoin-qt.pro:
+artbyte-qt.pro:
 src/qt/bitcoin.qrc:
 /usr/lib/x86_64-linux-gnu/libQt5Widgets.prl:
 /usr/lib/x86_64-linux-gnu/libQt5Gui.prl:
@@ -671,7 +671,7 @@ src/qt/bitcoin.qrc:
 /usr/lib/x86_64-linux-gnu/libQt5DBus.prl:
 /usr/lib/x86_64-linux-gnu/libQt5Core.prl:
 qmake: FORCE
-	@$(QMAKE) -o Makefile blackcoin-qt.pro
+	@$(QMAKE) -o Makefile artbyte-qt.pro
 
 qmake_all: FORCE
 
