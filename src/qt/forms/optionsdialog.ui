@@ -59,7 +59,11 @@
           </widget>
          </item>
          <item>
-          <widget class="BitcoinAmountField" name="transactionFee"/>
+          <widget class="BitcoinAmountField" name="transactionFee">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(152, 152, 152);</string>
+           </property>
+          </widget>
          </item>
          <item>
           <spacer name="horizontalSpacerFee">
@@ -105,7 +109,11 @@
           </widget>
          </item>
          <item>
-          <widget class="BitcoinAmountField" name="reserveBalance"/>
+          <widget class="BitcoinAmountField" name="reserveBalance">
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(152, 152, 152);</string>
+           </property>
+          </widget>
          </item>
          <item>
           <spacer name="horizontalSpacerReserveBalance">
@@ -321,6 +329,9 @@
            <property name="toolTip">
             <string>The user interface language can be set here. This setting will take effect after restarting Artbyte.</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(152, 152, 152);</string>
+           </property>
           </widget>
          </item>
         </layout>
@@ -345,6 +356,9 @@
            <property name="toolTip">
             <string>Choose the default subdivision unit to show in the interface and when sending coins.</string>
            </property>
+           <property name="styleSheet">
+            <string notr="true">background-color: rgb(152, 152, 152);</string>
+           </property>
           </widget>
          </item>
         </layout>
@@ -362,7 +376,7 @@
        <item>
         <widget class="QCheckBox" name="useBlackTheme">
          <property name="text">
-          <string>Use black visual theme (requires restart)</string>
+          <string>Use colorful visual theme (requires restart)</string>
          </property>
         </widget>
        </item>

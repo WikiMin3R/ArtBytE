@@ -14,7 +14,7 @@
    <string>About Artbyte</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(190, 170, 170)</string>
+   <string notr="true">background-color: rgb(40,48,48)</string>
   </property>
   <layout class="QHBoxLayout" name="horizontalLayout_2">
    <item>

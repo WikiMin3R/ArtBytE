@@ -14,7 +14,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(190, 170, 170);</string>
+   <string notr="true">background-color: rgb(40,48,48);</string>
   </property>
   <layout class="QVBoxLayout" name="topLayout">
    <item>
@@ -23,7 +23,7 @@
       <bool>false</bool>
      </property>
      <property name="styleSheet">
-      <string notr="true">background-color: rgb(190, 170, 170)
+      <string notr="true">background-color: rgb(40,48,48)
 </string>
      </property>
      <property name="wordWrap">
