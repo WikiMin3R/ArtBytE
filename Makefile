@@ -32,11 +32,11 @@ DEL_DIR       = rmdir
 MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
-DISTNAME      = artbyte-qt0.17.1
-DISTDIR = /home/compiler/ArtbytE/build/artbyte-qt0.17.1
+DISTNAME      = artbyte-qt0.17.1.2
+DISTDIR = /home/compiler/ArtbytE/build/artbyte-qt0.17.1.2
 LINK          = g++
 LFLAGS        = -m64 -fstack-protector-all --param ssp-buffer-size=1 -Wl,-O1
-LIBS          = $(SUBLIBS) -L/usr/X11R6/lib64 -lminiupnpc /home/compiler/ArtbytE/src/leveldb/libleveldb.a /home/compiler/ArtbytE/src/leveldb/libmemenv.a -lssl -lcrypto -ldb_cxx -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lrt -ldl -lQt5Widgets -lQt5Gui -lQt5Network -lQt5DBus -lQt5Core -lpthread -lGL 
+LIBS          = $(SUBLIBS) -L/usr/X11R6/lib64 -lminiupnpc /home/compiler/ArtbytE/src/leveldb/libleveldb.a /home/compiler/ArtbytE/src/leveldb/libmemenv.a -lssl -lcrypto -ldb_cxx -lboost_chrono -lboost_system -lboost_filesystem -lboost_program_options -lboost_thread -lrt -ldl -lQt5Widgets -lQt5Gui -lQt5Network -lQt5DBus -lQt5Core -lpthread -lGL 
 AR            = ar cqs
 RANLIB        = 
 SED           = sed
