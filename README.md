@@ -10,3 +10,4 @@ Since 2018, Artbyte (ABY) is a part of the EWMCI Crypto Leadership Alliance (see
 
 Ongoing updates will be added to the original code and will be posted here:  http://github.com/WikiMin3R/ArtBytE
 
+New website (Go-Live planed for mid-March, 2022) will be at https://artbyte.art
