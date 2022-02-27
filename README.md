@@ -10,6 +10,9 @@
 
 -= COMPILE INFO =-
 
+BEFORE COMPILING: Make sure permissions within all folders are set appropriately, including leveldb directory
+ALL: Ensure you "make clean" before you start compiling!
+EXPERTS ONLY: Linker-specific parameters may have to be added, including -lboost_chrono
 Starting with Ubuntu 18+ / Linux Mint 18+ dependencies will need to be pre-compiled.
 Best / easiest collection of dependencies can be found here: https://github.com/WikiMin3R/ZetacoinE
 [click/download ecc-master.zip]
