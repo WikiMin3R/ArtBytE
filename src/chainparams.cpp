@@ -90,7 +90,7 @@ public:
         // List of SeedNodes
 	vSeeds.push_back(CDNSSeedData("ABYSeed1", "elec-seeder-one.artbytecoin.org"));        
 	vSeeds.push_back(CDNSSeedData("ABYSeed2", "elec-seeder-two.artbytecoin.org"));         			
-        vSeeds.push_back(CDNSSeedData("seeder-three-artbyte.xyz", "45.76.43.192"));
+        vSeeds.push_back(CDNSSeedData("ABYSeed3", "seeder-three-artbyte.xyz"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
