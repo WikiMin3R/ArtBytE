@@ -334,7 +334,7 @@ DIST          = /usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/exceptions.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/yacc.prf \
 		/usr/lib/x86_64-linux-gnu/qt5/mkspecs/features/lex.prf \
-		blackcoin-qt.pro src/qt/bitcoingui.h \
+		artbyte-qt.pro src/qt/bitcoingui.h \
 		src/qt/transactiontablemodel.h \
 		src/qt/addresstablemodel.h \
 		src/qt/optionsdialog.h \
