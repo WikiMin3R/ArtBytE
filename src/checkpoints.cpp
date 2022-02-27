@@ -28,11 +28,11 @@ static const int nCheckpointSpan = 500;
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
         ( 0000,   uint256("0x000002800739840e434b5d61dc3ba4c5f5d9525d7799ce92b63e16a04967aed3") ) // genesis
-//        ( 10000,  uint256("0x0000000000827e4dc601f7310a91c45af8df0dfc1b6fa1dfa5b896cb00c8767c") ) // last pow block
-//        ( 38425,  uint256("0x62bf2e9701226d2f88d9fa99d650bd81f3faf2e56f305b7d71ccd1e7aa9c3075") ) // hardfork
-//        ( 254348, uint256("0x9bf8d9bd757d3ef23d5906d70567e5f0da93f1e0376588c8d421a95e2421838b") ) // minor network split
-//        ( 319002, uint256("0x0011494d03b2cdf1ecfc8b0818f1e0ef7ee1d9e9b3d1279c10d35456bc3899ef") ) // hardfork
-//        ( 872456, uint256("0xe4fd321ced1de06213d2e246b150b4bfd8c4aa0989965dce88f2a58668c64860") ) // hardfork
+        ( 1001,   uint256("0xedc30dfebc2d6f242722ef3dc0fc7a674fa86eacc0c8afd491ad8c22efce09cb") ) // 25% PoS sufficiency
+        ( 5005,   uint256("0xe4dd9a3b8d14b5465dc04af5a5f10fafc34aa524119fd0e01a087a66e08a8e76") ) // 50% PoS sufficiency
+        ( 10001,  uint256("0x302c768ae44740e58e67dfe02c1f9e46daaf3a09aefe2fa5eb16b60ba44153a4") ) // 75% PoS sufficiency
+        ( 14001,  uint256("0x703e4b61a1218d4270ad454db07e1f89c731688c505ba3d412279a5ca6952cdf") ) // 99% PoS Sufficiency
+//      ( 872456, uint256("0xe4fd321ced1de06213d2e246b150b4bfd8c4aa0989965dce88f2a58668c64860") ) //
     ;
 
     // TestNet has no checkpoints
