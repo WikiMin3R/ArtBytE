@@ -88,9 +88,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x2ff457b8daa25844baa23572c0d5c48e3ff5b19a36822eead99c7921a1793098"));
 
         // List of SeedNodes
-	vSeeds.push_back(CDNSSeedData("ABYSeed1", "elec-seeder-one.artbytecoin.org"));        
-	vSeeds.push_back(CDNSSeedData("ABYSeed2", "elec-seeder-two.artbytecoin.org"));         			
-        vSeeds.push_back(CDNSSeedData("ABYSeed3", "seeder-three-artbyte.xyz"));
+	vSeeds.push_back(CDNSSeedData("DNSSeeder1", "dns1.artbytecoin.org"));        
+	vSeeds.push_back(CDNSSeedData("DNSSeeder2", "dns2.artbytecoin.org"));          			
+        vSeeds.push_back(CDNSSeedData("seeder-three-artbyte.xyz", "45.76.43.192"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 85);
